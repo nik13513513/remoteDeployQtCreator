@@ -20,4 +20,4 @@ project(remoteDeploy)
 set (CMAKE_BUILD_TYPE Debug)
 
 add_executable(${PROJECT_NAME} "main.cpp")
-add_deployment_file(main.cpp .)#дополнительные файлы
+add_deployment_file(main.cpp ./)#дополнительные файлы
